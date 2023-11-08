@@ -1,7 +1,7 @@
 <template>
 <v-layout>
     <v-main class="main">
-    레이아웃1
+   <router-view/>
     </v-main>
 </v-layout>
 </template>
