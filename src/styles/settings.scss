@@ -1,10 +1,23 @@
-/**
- * src/styles/settings.scss
- *
- * Configures SASS variables and Vuetify overwrites
- */
+*{
+    margin: 0;
+    padding: 0;
+    color: #222;
+    box-sizing: border-box;
+}
 
-// https://vuetifyjs.com/features/sass-variables/`
-// @use 'vuetify/settings' with (
-//   $color-pack: false
-// );
+ul{
+    list-style: none;
+}
+
+a{
+    color: #222;
+    text-decoration: none;
+}
+
+
+/** display **/
+
+.inner-width{
+	width: 80%;
+	margin: 0 auto;
+}

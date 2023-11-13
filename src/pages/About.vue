@@ -1,14 +1,11 @@
 <template>
     <div>
-about
+        about
     </div>
 </template>
 
-<script setup lang="ts">
-import {ref} from 'vue'
-ref: title = 'old'
+<script setup="setup" lang="ts">
+    import {ref} from 'vue'
 </script>
 
-<style scoped>
-
-</style>
+<style scoped="scoped"></style>
