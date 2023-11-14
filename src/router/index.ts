@@ -18,7 +18,7 @@ const routes = [
         name: 'About',
         component: () => import ('@/pages/About.vue'),
         meta: {
-            layout: TheLayout2
+            layout: TheDefaultLayout
         }
     }
 ]
