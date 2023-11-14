@@ -20,6 +20,14 @@ const routes = [
         meta: {
             layout: TheDefaultLayout
         }
+    },
+    {
+        path: '/inputs',
+        name: 'Inputs',
+        component: () => import ('@/pages/Inputs.vue'),
+        meta: {
+            layout: TheDefaultLayout
+        }
     }
 ]
 
