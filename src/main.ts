@@ -8,12 +8,12 @@ const app = createApp(App)
 registerPlugins(app)
 
 app.component('Counter', {
-	inject:['counter_header'],
-	setup(){
-		const count = ref(0)
-		return count
-	},
-	template:`<span>{{ counter_header }}</span>
+    inject: ['counter_header'],
+    setup() {
+        const count = ref(0)
+        return count
+    },
+    template: `<span>{{ counter_header }}</span>
 	<button @click="count++" v-text="count"></button>`
 })
 

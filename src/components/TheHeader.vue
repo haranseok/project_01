@@ -12,7 +12,7 @@
                     <router-link to="/about">About</router-link>
                 </li>
 				<li>
-                    <router-link to="/inputs">Inputs</router-link>
+                    <router-link to="/userButton">UserButton</router-link>
                 </li>
 
             </ul>
@@ -20,7 +20,9 @@
     </header>
 </template>
 
-<script setup="setup" lang="ts"></script>
+<script setup="setup" lang="ts">
+
+</script>
 
 <style lang="scss" scoped="scoped">
 header{

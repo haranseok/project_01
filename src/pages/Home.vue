@@ -17,9 +17,6 @@
 
         </div>
 
-        <div class="test">
-            {{ proxy.title }}
-        </div>
     </div>
 </template>
 
@@ -30,12 +27,10 @@
         computed,
         watch,
         watchEffect,
-        getCurrentInstance
     } from 'vue'
     const count_c_1 = ref(0);
     const count_c_2 = ref(0)
     const state = ref('실핼 중')
-    const {proxy} = getCurrentInstance();
     const arr = reactive([
         {
             id: 1,

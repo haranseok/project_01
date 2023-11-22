@@ -22,9 +22,9 @@ const routes = [
         }
     },
     {
-        path: '/inputs',
-        name: 'Inputs',
-        component: () => import ('@/pages/Inputs.vue'),
+        path: '/userButton',
+        name: 'UserButton',
+        component: () => import ('@/pages/UserButton.vue'),
         meta: {
             layout: TheDefaultLayout
         }
